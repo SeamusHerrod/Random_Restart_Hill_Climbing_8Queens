@@ -50,8 +50,7 @@ void random_config(int state[]) {
     }
 }
 void print_config(int config[]) {
-    cout << "[";
-    for (int j = 0; j < k; j++) {
+        cout << "[";
         for (int i = 0; i < 8; i++){
             if (i == 7) {
                 cout << config[i] << "]" << endl;
@@ -60,15 +59,13 @@ void print_config(int config[]) {
                 cout << config[i] << ", ";
             }
     }
-
-    }
 }
 
 void mutate(int config[], double p) {
     for (int i = 1; i <= 8; i++) {
-        double r = myRand(0,1);
+        double r = rand();
         if (r < p) {
-            config[i - 1] = (int) ceil(myRand(1,8)*8);
+            config[i - 1] = (int) ceil(rand()*8);
         }
     }
 }
@@ -104,13 +101,14 @@ int main() {
     // initial configuration - random
     for (int i = 0; i < k; i++) {
         random_config(cur_config[i]);
+        mutate(cur_config[i], 1.0);
     }
 
     for ( int i = 0; i < 1; i++){
+        cout << "========\nGeneration: "<< i << "\n========" << endl;
         for (int i = 0; i < k; i++){
             int pop_fitness = 0;
             print_config(cur_config[i]);
-            cout << "========\nGeneration: "<< i << "\n========" << endl;
             pop_fitness = fitness(cur_config[i]);
             cout << "init fitness: " << pop_fitness << endl;
             if (pop_fitness == 28) {
