@@ -1,0 +1,300 @@
+g++ RRHC_8Queens.cpp -o rrhc 
+./rrhc 
+RUN: 0
+[3, 7, 2, 8, 5, 1, 4, 6]
+evals for run: 544427
+RUN: 1
+[4, 1, 5, 8, 6, 3, 7, 2]
+evals for run: 377611
+RUN: 2
+[4, 8, 1, 3, 6, 2, 7, 5]
+evals for run: 156628
+RUN: 3
+[4, 2, 7, 3, 6, 8, 5, 1]
+evals for run: 651698
+RUN: 4
+[7, 5, 3, 1, 6, 8, 2, 4]
+evals for run: 473584
+RUN: 5
+[5, 1, 8, 6, 3, 7, 2, 4]
+evals for run: 636796
+RUN: 6
+[2, 8, 6, 1, 3, 5, 7, 4]
+evals for run: 252338
+RUN: 7
+[5, 2, 4, 7, 3, 8, 6, 1]
+evals for run: 37766
+RUN: 8
+[5, 7, 2, 4, 8, 1, 3, 6]
+evals for run: 613411
+RUN: 9
+[7, 2, 4, 1, 8, 5, 3, 6]
+evals for run: 237561
+RUN: 10
+[6, 3, 7, 2, 4, 8, 1, 5]
+evals for run: 186369
+RUN: 11
+[3, 6, 2, 7, 1, 4, 8, 5]
+evals for run: 316487
+RUN: 12
+[4, 8, 5, 3, 1, 7, 2, 6]
+evals for run: 449362
+RUN: 13
+[3, 8, 4, 7, 1, 6, 2, 5]
+evals for run: 351987
+RUN: 14
+[3, 5, 2, 8, 6, 4, 7, 1]
+evals for run: 366075
+RUN: 15
+[2, 7, 3, 6, 8, 5, 1, 4]
+evals for run: 387462
+RUN: 16
+[5, 7, 2, 4, 8, 1, 3, 6]
+evals for run: 186365
+RUN: 17
+[3, 5, 7, 1, 4, 2, 8, 6]
+evals for run: 418876
+RUN: 18
+[4, 2, 7, 3, 6, 8, 1, 5]
+evals for run: 306135
+RUN: 19
+[1, 5, 8, 6, 3, 7, 2, 4]
+evals for run: 260981
+RUN: 20
+[5, 8, 4, 1, 7, 2, 6, 3]
+evals for run: 490643
+RUN: 21
+[3, 6, 4, 1, 8, 5, 7, 2]
+evals for run: 110014
+RUN: 22
+RUN: 23
+[7, 3, 8, 2, 5, 1, 6, 4]
+evals for run: 230025
+RUN: 24
+[4, 7, 5, 2, 6, 1, 3, 8]
+evals for run: 657766
+RUN: 25
+[6, 3, 5, 8, 1, 4, 2, 7]
+evals for run: 52720
+RUN: 26
+[4, 8, 1, 5, 7, 2, 6, 3]
+evals for run: 518385
+RUN: 27
+[6, 4, 2, 8, 5, 7, 1, 3]
+evals for run: 148292
+RUN: 28
+[1, 7, 5, 8, 2, 4, 6, 3]
+evals for run: 86852
+RUN: 29
+[3, 6, 2, 7, 1, 4, 8, 5]
+evals for run: 389602
+RUN: 30
+[5, 2, 4, 7, 3, 8, 6, 1]
+evals for run: 163021
+RUN: 31
+[5, 1, 4, 6, 8, 2, 7, 3]
+evals for run: 146486
+RUN: 32
+[8, 2, 4, 1, 7, 5, 3, 6]
+evals for run: 999346
+RUN: 33
+[4, 6, 8, 3, 1, 7, 5, 2]
+evals for run: 686881
+RUN: 34
+[5, 1, 8, 6, 3, 7, 2, 4]
+evals for run: 902939
+RUN: 35
+[2, 5, 7, 4, 1, 8, 6, 3]
+evals for run: 7823
+RUN: 36
+[2, 6, 8, 3, 1, 4, 7, 5]
+evals for run: 386045
+RUN: 37
+[6, 3, 7, 4, 1, 8, 2, 5]
+evals for run: 97033
+RUN: 38
+[7, 3, 8, 2, 5, 1, 6, 4]
+evals for run: 37804
+RUN: 39
+[5, 8, 4, 1, 3, 6, 2, 7]
+evals for run: 132552
+RUN: 40
+[1, 5, 8, 6, 3, 7, 2, 4]
+evals for run: 246057
+RUN: 41
+[6, 4, 2, 8, 5, 7, 1, 3]
+evals for run: 224237
+RUN: 42
+[4, 2, 7, 5, 1, 8, 6, 3]
+evals for run: 165123
+RUN: 43
+[8, 3, 1, 6, 2, 5, 7, 4]
+evals for run: 352197
+RUN: 44
+[3, 6, 2, 5, 8, 1, 7, 4]
+evals for run: 90268
+RUN: 45
+[6, 8, 2, 4, 1, 7, 5, 3]
+evals for run: 38010
+RUN: 46
+[4, 8, 5, 3, 1, 7, 2, 6]
+evals for run: 17626
+RUN: 47
+[6, 3, 7, 2, 4, 8, 1, 5]
+evals for run: 35669
+RUN: 48
+[6, 1, 5, 2, 8, 3, 7, 4]
+evals for run: 395735
+RUN: 49
+[6, 3, 1, 8, 4, 2, 7, 5]
+evals for run: 56986
+RUN: 50
+[4, 7, 1, 8, 5, 2, 6, 3]
+evals for run: 608825
+RUN: 51
+[5, 1, 8, 4, 2, 7, 3, 6]
+evals for run: 121185
+RUN: 52
+[8, 2, 5, 3, 1, 7, 4, 6]
+evals for run: 24383
+RUN: 53
+[5, 7, 2, 6, 3, 1, 4, 8]
+evals for run: 67984
+RUN: 54
+[8, 4, 1, 3, 6, 2, 7, 5]
+evals for run: 78562
+RUN: 55
+[7, 3, 1, 6, 8, 5, 2, 4]
+evals for run: 20948
+RUN: 56
+[2, 6, 1, 7, 4, 8, 3, 5]
+evals for run: 5650
+RUN: 57
+[3, 6, 8, 1, 4, 7, 5, 2]
+evals for run: 205670
+RUN: 58
+[4, 6, 8, 2, 7, 1, 3, 5]
+evals for run: 842590
+RUN: 59
+[1, 7, 4, 6, 8, 2, 5, 3]
+evals for run: 144041
+RUN: 60
+[6, 3, 1, 7, 5, 8, 2, 4]
+evals for run: 427608
+RUN: 61
+[4, 2, 7, 3, 6, 8, 1, 5]
+evals for run: 173347
+RUN: 62
+[4, 8, 5, 3, 1, 7, 2, 6]
+evals for run: 142392
+RUN: 63
+[2, 5, 7, 1, 3, 8, 6, 4]
+evals for run: 252203
+RUN: 64
+[3, 5, 7, 1, 4, 2, 8, 6]
+evals for run: 236427
+RUN: 65
+[7, 3, 8, 2, 5, 1, 6, 4]
+evals for run: 108008
+RUN: 66
+[2, 5, 7, 1, 3, 8, 6, 4]
+evals for run: 168306
+RUN: 67
+[6, 3, 5, 7, 1, 4, 2, 8]
+evals for run: 716019
+RUN: 68
+[5, 2, 4, 6, 8, 3, 1, 7]
+evals for run: 297974
+RUN: 69
+[2, 5, 7, 1, 3, 8, 6, 4]
+evals for run: 132582
+RUN: 70
+[3, 7, 2, 8, 6, 4, 1, 5]
+evals for run: 146815
+RUN: 71
+[4, 8, 5, 3, 1, 7, 2, 6]
+evals for run: 440866
+RUN: 72
+[7, 2, 6, 3, 1, 4, 8, 5]
+evals for run: 69180
+RUN: 73
+[8, 2, 4, 1, 7, 5, 3, 6]
+evals for run: 346828
+RUN: 74
+RUN: 75
+[3, 6, 8, 1, 5, 7, 2, 4]
+evals for run: 518717
+RUN: 76
+[1, 6, 8, 3, 7, 4, 2, 5]
+evals for run: 315408
+RUN: 77
+[7, 3, 8, 2, 5, 1, 6, 4]
+evals for run: 44087
+RUN: 78
+[5, 1, 4, 6, 8, 2, 7, 3]
+evals for run: 309606
+RUN: 79
+[4, 6, 8, 3, 1, 7, 5, 2]
+evals for run: 229542
+RUN: 80
+[5, 2, 8, 1, 4, 7, 3, 6]
+evals for run: 341540
+RUN: 81
+[5, 7, 1, 4, 2, 8, 6, 3]
+evals for run: 665491
+RUN: 82
+[3, 6, 8, 1, 4, 7, 5, 2]
+evals for run: 211369
+RUN: 83
+[5, 7, 2, 6, 3, 1, 8, 4]
+evals for run: 8798
+RUN: 84
+[4, 7, 5, 3, 1, 6, 8, 2]
+evals for run: 98317
+RUN: 85
+[7, 2, 6, 3, 1, 4, 8, 5]
+evals for run: 379056
+RUN: 86
+[1, 5, 8, 6, 3, 7, 2, 4]
+evals for run: 444186
+RUN: 87
+[8, 2, 4, 1, 7, 5, 3, 6]
+evals for run: 90989
+RUN: 88
+[4, 8, 1, 3, 6, 2, 7, 5]
+evals for run: 389533
+RUN: 89
+[7, 2, 6, 3, 1, 4, 8, 5]
+evals for run: 28695
+RUN: 90
+[5, 3, 8, 4, 7, 1, 6, 2]
+evals for run: 594409
+RUN: 91
+[6, 4, 7, 1, 3, 5, 2, 8]
+evals for run: 23214
+RUN: 92
+[1, 7, 5, 8, 2, 4, 6, 3]
+evals for run: 465263
+RUN: 93
+[6, 8, 2, 4, 1, 7, 5, 3]
+evals for run: 379269
+RUN: 94
+[6, 3, 7, 2, 4, 8, 1, 5]
+evals for run: 31611
+RUN: 95
+[3, 1, 7, 5, 8, 2, 4, 6]
+evals for run: 250656
+RUN: 96
+[8, 2, 5, 3, 1, 7, 4, 6]
+evals for run: 699772
+RUN: 97
+[6, 3, 5, 7, 1, 4, 2, 8]
+evals for run: 90430
+RUN: 98
+[2, 6, 8, 3, 1, 4, 7, 5]
+evals for run: 22363
+RUN: 99
+[5, 1, 4, 6, 8, 2, 7, 3]
+evals for run: 10765
+successful runs: 98
+average evals: 280607
